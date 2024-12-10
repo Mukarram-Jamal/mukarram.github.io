@@ -5,7 +5,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background: linear-gradient(to right, #f7f7f7, #e0e0e0);
 }
 
 header {
@@ -45,6 +45,30 @@ section h2 {
 
 .job, .project {
     margin-bottom: 20px;
+}
+
+.skill-box {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.skill-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-box li {
+    margin: 5px 0;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.skill-box i {
+    margin-right: 8px;
+    color: #fff;
 }
 
 footer {
