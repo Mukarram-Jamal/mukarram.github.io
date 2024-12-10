@@ -5,11 +5,13 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: linear-gradient(0deg, yellow, #da1d1de0 100px);
+    background: linear-gradient(45deg, black, transparent);
+    color: #333;
 }
 
 header {
-    background: linear-gradient(45deg, black, transparent);
+    background-color: #333;
+    color: #fff;
     padding: 20px;
     text-align: center;
 }
@@ -29,11 +31,12 @@ header i {
 }
 
 section {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
     margin: 20px;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px); /* Adds a slight blur effect to sections */
 }
 
 section h2 {
@@ -47,7 +50,7 @@ section h2 {
 }
 
 .skill-box {
-    background: linear-gradient(to right, #6a11cb, #2575fc);
+    background: linear-gradient(45deg, #6a11cb, #2575fc); /* Purple to blue gradient */
     color: #fff;
     padding: 10px;
     border-radius: 5px;
@@ -85,5 +88,3 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
-
