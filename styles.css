@@ -5,11 +5,11 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: linear-gradient(0deg, black, #da1d1de0 100px)
+    background: linear-gradient(0deg, yellow, #da1d1de0 100px);
 }
 
 header {
-    background-color: #333;
+    background: linear-gradient(45deg, black, transparent);
     color: #fff;
     padding: 20px;
     text-align: center;
