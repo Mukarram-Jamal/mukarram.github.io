@@ -25,6 +25,10 @@ header p {
     font-size: 1em;
 }
 
+header i {
+    margin-right: 5px;
+}
+
 section {
     background-color: #fff;
     margin: 20px;
